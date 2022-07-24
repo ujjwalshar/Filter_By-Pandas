@@ -11,5 +11,5 @@ file_to_be_read = readfile.loc[
 
 file_to_be_read.style.hide_index()
 
-#
+file_to_be_read.to_excel('filtered.xlxs')
 print(file_to_be_read)
